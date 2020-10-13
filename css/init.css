@@ -1,0 +1,106 @@
+
+
+body{
+
+background:black;
+padding:0px;
+margin:0px;
+image-rendering: crisp-edges;
+overflow:hidden;
+}
+
+* {
+	image-rendering: crisp-edges;
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+::selection { background: transparent;color:inherit; }
+::-moz-selection { background: transparent;color:inherit; }
+
+#mainCanvas{
+    width:710px;
+    height: 430px;
+  background:black;
+image-rendering: crisp-edges;
+    position: absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-text-size-adjust: none;
+   
+}
+#mainCanvas2{
+    width:710px;
+    height: 430px;
+  image-rendering: crisp-edges;
+
+    position: absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-text-size-adjust: none;
+   
+}
+
+
+
+.mainScreen{
+image-rendering: crisp-edges;
+     
+    -webkit-backface-visibility: hidden;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent; /* mobile webkit */
+       user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+@font-face {
+    font-family: "GothamProNarrowBold";
+    src: url("../fonts/GothamProNarrowBold.eot");
+    src: url("../fonts/GothamProNarrowBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProNarrowBold.woff") format("woff"),
+    url("../fonts/GothamProNarrowBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "liq";
+    src: url("../fonts/liqc____.eot");
+    src: url("../fonts/liqc____.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/liqc____.woff") format("woff"),
+    url("../fonts/liqc____.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.eot");
+    src: url("../fonts/Helvetica.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Helvetica.woff") format("woff"),
+    url("../fonts/Helvetica.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url("../fonts/Helvetica Bold.eot");
+    src: url("../fonts/Helvetica Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Helvetica Bold.woff") format("woff"),
+    url("../fonts/Helvetica Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

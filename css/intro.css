@@ -1,0 +1,34 @@
+
+root { 
+    display: block;
+}
+
+body{
+
+ background-color:#000000;
+    	
+}
+
+
+#intro{
+    width:100%;
+    height: 100%;
+   
+
+    position: absolute;
+    z-index:1;
+}
+#skip{
+
+  left: 49%;
+  top: 90%;
+ 
+  position: absolute;
+  width: 113px;
+
+	z-index:2;
+    
+}
+
+
+
